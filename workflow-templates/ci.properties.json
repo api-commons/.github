@@ -1,0 +1,6 @@
+{
+  "name": "Spotlight Node CI",
+  "description": "Standard CI: lint, typecheck, check, test, build (run with --if-present).",
+  "iconName": "octicon-check-circle",
+  "categories": ["Continuous integration", "JavaScript", "TypeScript"]
+}
