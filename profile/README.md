@@ -78,6 +78,7 @@ Each repo above releases independently. Shared contribution conventions —
 branch/PR/merge, the common script contract, and our security policy — live in
 [CONTRIBUTING.md](https://github.com/api-commons/.github/blob/main/CONTRIBUTING.md)
 and [SECURITY.md](https://github.com/api-commons/.github/blob/main/SECURITY.md).
-Everything here is open source and free to fork — see each repo's own license;
-[API Evangelist](https://apievangelist.com/services/) offers expert services
-when you want help.
+Everything here is open source and free to fork — Apache-2.0 throughout,
+except the [api-commons](https://github.com/api-commons/api-commons) hub
+content, which is CC BY 3.0. [API Evangelist](https://apievangelist.com/services/)
+offers expert services when you want help.
