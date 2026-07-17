@@ -62,28 +62,9 @@ referenced from an [APIs.json](https://apisjson.org) index.
 | --- | --- |
 | [**api-onboarding**](https://github.com/api-commons/api-onboarding) | The API Onboarding Descriptor (AID) — a machine-readable `/.well-known/api-onboarding` document describing what it takes to onboard with an API: account, plan gates, ToS, verification, registration, and an executable flow. |
 | [**problem-details-for-http-apis**](https://github.com/api-commons/problem-details-for-http-apis) | A base for using [RFC 9457 Problem Details](https://www.rfc-editor.org/rfc/rfc9457.html) for HTTP APIs in your own API. |
-| [**agent-skills**](https://github.com/api-commons/agent-skills) | Reference agent skills (`SKILL.md`) for the API Commons / APIs.io ecosystem. |
 | [**train-travel**](https://github.com/api-commons/train-travel) | An OpenAPI + APIs.json template for a Train Travel API — handy for demos and testing. |
 | [**examples**](https://github.com/api-commons/examples) | Shared examples for the API Commons building blocks and the APIs.json ecosystem. |
 | [**snacks-twilio-messages**](https://github.com/api-commons/snacks-twilio-messages) | An API Snack for AI — send a message with Twilio, described as a minimal, composable capability. |
-
-## Spotlight suite
-
-**[Spotlight Rules](https://spotlight-rules.com)** is the openly-governed build
-of the Spectral API linter, maintained here under API Commons — one engine with
-a CLI, an HTTP API, an MCP server, a VS Code extension, a browser playground, and
-CI templates.
-
-| Repo | What it is |
-| --- | --- |
-| [**spotlight-cli**](https://github.com/api-commons/spotlight-cli) | The linter CLI + engine — lint OpenAPI, AsyncAPI, and Arazzo. |
-| [**spotlight-spec**](https://github.com/api-commons/spotlight-spec) | The ruleset format specification + JSON Schema. |
-| [**spotlight-validator**](https://github.com/api-commons/spotlight-validator) | Browser governance playground — [validator.spotlight-rules.com](https://validator.spotlight-rules.com). |
-| [**spotlight-vscode**](https://github.com/api-commons/spotlight-vscode) | Lint in your editor with the VS Code extension. |
-| [**spotlight-api**](https://github.com/api-commons/spotlight-api) | OpenAPI-first HTTP API — lint artifacts & work with rulesets over HTTP. |
-| [**spotlight-mcp**](https://github.com/api-commons/spotlight-mcp) | MCP server — lint & work with rulesets from any AI client. |
-| [**spotlight-pipeline**](https://github.com/api-commons/spotlight-pipeline) | Governance-as-code CI templates for GitHub/GitLab/Bitbucket/Azure/AWS. |
-| [**spotlight-rules**](https://github.com/api-commons/spotlight-rules) | The website — [spotlight-rules.com](https://spotlight-rules.com). |
 
 ## The hub
 
