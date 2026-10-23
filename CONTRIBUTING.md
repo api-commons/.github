@@ -41,7 +41,7 @@ or a `BREAKING CHANGE:` footer.
 ## The rule catalog
 
 The catalog is the product. Its single source of truth and pipeline are documented
-in [api-validator](https://github.com/api-commons/api-validator) (`rules/all-rules.yaml`, read by apicommons.org): edit `all-rules.yaml`, regenerate
+in [common-openlint-validator](https://github.com/api-commons/common-openlint-validator) (`rules/all-rules.yaml`, the single source for apicommons.org and the tools): edit `all-rules.yaml`, regenerate
 (`sync:catalog`, `export:site`, `build:catalog`), and commit the artifacts — the
 `--check` gates enforce that they stay in sync.
 

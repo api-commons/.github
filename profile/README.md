@@ -127,7 +127,7 @@ live in the [OpenLint](https://github.com/openlint) organization.
 
 | Repo | What it is |
 | --- | --- |
-| [**common-openlint-validator**](https://github.com/api-commons/common-openlint-validator) | A validator for the API Commons rule catalog (the rules published at [apicommons.org/rules](https://apicommons.org/rules/) come from [api-validator](https://github.com/api-commons/api-validator)) |
+| [**common-openlint-validator**](https://github.com/api-commons/common-openlint-validator) | The API Commons rule catalog and validator, the single source of the rules at [apicommons.org/rules](https://apicommons.org/rules/) |
 | [**common-openlint-api**](https://github.com/api-commons/common-openlint-api) | An OpenAPI-first HTTP API for linting with the API Commons catalog |
 | [**common-openlint-mcp**](https://github.com/api-commons/common-openlint-mcp) | An MCP server that exposes linting and rulesets to any AI client |
 | [**common-openlint-pipeline**](https://github.com/api-commons/common-openlint-pipeline) | Governance as code: CI templates that run OpenLint in GitHub, GitLab, Bitbucket, Azure and AWS |
