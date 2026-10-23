@@ -1,6 +1,6 @@
 # Contributing to API Commons projects
 
-Thanks for contributing! These conventions are shared across the Spotlight suite.
+Thanks for contributing! These conventions are shared across the API Commons tools.
 
 ## Workflow
 
@@ -41,7 +41,7 @@ or a `BREAKING CHANGE:` footer.
 ## The rule catalog
 
 The catalog is the product. Its single source of truth and pipeline are documented
-in **CATALOG.md** (spotlight-spec): edit `all-rules.yaml`, regenerate
+in [common-openlint-validator](https://github.com/api-commons/common-openlint-validator): edit `all-rules.yaml`, regenerate
 (`sync:catalog`, `export:site`, `build:catalog`), and commit the artifacts — the
 `--check` gates enforce that they stay in sync.
 
@@ -49,5 +49,5 @@ in **CATALOG.md** (spotlight-spec): edit `all-rules.yaml`, regenerate
 
 See [RELEASE.md](./RELEASE.md).
 
-By contributing you agree your contributions are licensed Apache-2.0 (the Spotlight
-projects are an openly-governed fork of Stoplight Spectral; attribution preserved).
+By contributing you agree your contributions are licensed Apache-2.0 (the tools build on
+[OpenLint](https://openlint.org), a community fork of Stoplight Spectral; attribution preserved).

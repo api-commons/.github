@@ -34,7 +34,7 @@ data never leave it. Full index at **[apicommons.org/tools](https://apicommons.o
 | [**component-library**](https://github.com/api-commons/component-library) | A browser-first tool for a versioned, reusable API model/component library — author or import a library of named JSON Schemas, see which OpenAPI specs consume each model, and classify a version bump as breaking or non-breaking across every consumer while surfacing near-duplicate model drift | [library.apicommons.org](https://library.apicommons.org) |
 | [**context-gate**](https://github.com/api-commons/context-gate) | Consumer-centric API governance: choose what operations/fields your APIs expose to agents; emit a governed Tyk API + MCP surface and a Spectral ruleset (PII/secrets/compliance). Browser-first | [contextgate.apicommons.org](https://contextgate.apicommons.org) |
 | [**governance-agent-export**](https://github.com/api-commons/governance-agent-export) | Export an API governance ruleset into agent-native artifacts — AGENTS.md, system prompt, remediation prompt pack, rule digest. Browser-first | [agents.apicommons.org](https://agents.apicommons.org) |
-| [**governance-baseline**](https://github.com/api-commons/governance-baseline) | A browser-first tool to make Spectral/Spotlight governance adoptable on a legacy estate — snapshot a baseline of the violations you have today, then ratchet: fail only NEW violations while baselined ones are suppressed, track a warning budget, and burn the baseline down to zero | [baseline.apicommons.org](https://baseline.apicommons.org) |
+| [**governance-baseline**](https://github.com/api-commons/governance-baseline) | A browser-first tool to make Spectral and OpenLint governance adoptable on a legacy estate — snapshot a baseline of the violations you have today, then ratchet: fail only NEW violations while baselined ones are suppressed, track a warning budget, and burn the baseline down to zero | [baseline.apicommons.org](https://baseline.apicommons.org) |
 | [**governance-certification**](https://github.com/api-commons/governance-certification) | Issue and verify tamper-evident API governance certificates — SHA-256 fingerprint lets consumers re-verify an API passed a ruleset at a profile. Browser-first | [certification.apicommons.org](https://certification.apicommons.org) |
 | [**governance-coverage**](https://github.com/api-commons/governance-coverage) | Measure how much of your API description your governance rules actually check — coverage by section, dead rules, per-rule reach. Browser-first | [coverage.apicommons.org](https://coverage.apicommons.org) |
 | [**governance-pipeline**](https://github.com/api-commons/governance-pipeline) | A reference API governance pipeline you can fork — PR-gated, path-filtered, SHA-pinned, OWASP security job, HTML report. The blueprint from the State of Spectral research | — |
@@ -119,16 +119,18 @@ than one gives your clients a single error format.
 | [**examples**](https://github.com/api-commons/examples) | Shared examples for the API Commons building blocks and the APIs.json ecosystem |
 | [**snacks-twilio-messages**](https://github.com/api-commons/snacks-twilio-messages) | This is an API Snack for AI to send message with Twilio |
 
-## Spotlight
+## OpenLint tools
 
-An openly-governed build of the Spectral linter, and the ruleset format as a
-standalone specification.
+API Commons tools built on [OpenLint](https://openlint.org), the community fork of the
+Spectral linter. The engine and the [ruleset specification](https://spec.openlint.org)
+live in the [OpenLint](https://github.com/openlint) organization.
 
 | Repo | What it is |
 | --- | --- |
-| [**spotlight-rules**](https://github.com/api-commons/spotlight-rules) | Website for Spotlight Rules — the openly-governed build of the Spectral API linter |
-| [**spotlight-spec**](https://github.com/api-commons/spotlight-spec) | The Spectral ruleset format as a standalone specification and JSON Schema — normative, independently versioned, implementable by anyone |
-| [**spotlight-tools**](https://github.com/api-commons/spotlight-tools) | Spectral CLI — a maintained, openly-governed API Commons build of the Spectral linter. Reference implementation of the Spectral ruleset specification |
+| [**common-openlint-validator**](https://github.com/api-commons/common-openlint-validator) | The API Commons rule catalog and validator, the source of the rules at [apicommons.org/rules](https://apicommons.org/rules/) |
+| [**common-openlint-api**](https://github.com/api-commons/common-openlint-api) | An OpenAPI-first HTTP API for linting with the API Commons catalog |
+| [**common-openlint-mcp**](https://github.com/api-commons/common-openlint-mcp) | An MCP server that exposes linting and rulesets to any AI client |
+| [**common-openlint-pipeline**](https://github.com/api-commons/common-openlint-pipeline) | Governance as code: CI templates that run OpenLint in GitHub, GitLab, Bitbucket, Azure and AWS |
 
 ## The hub
 
@@ -146,9 +148,8 @@ Two licenses, split by what a thing *is*:
   **Apache-2.0**.
 
 Repos carrying both ship both: `LICENSE` for the artifacts, `LICENSE-CODE` for the code.
-The [spectral](https://github.com/api-commons/spectral) and
-[spotlight-tools](https://github.com/api-commons/spotlight-tools) builds keep the
-Apache-2.0 they inherit from upstream.
+The [spectral](https://github.com/api-commons/spectral) fork keeps the Apache-2.0 it
+inherits from upstream.
 
 ## Get involved
 
