@@ -21,7 +21,6 @@ data never leave it. Full index at **[apicommons.org/tools](https://apicommons.o
 
 | Tool | What it does | Try it |
 | --- | --- | --- |
-| [**api-validator**](https://github.com/api-commons/api-validator) | Browser-first API governance validator for OpenAPI, AsyncAPI, Arazzo, and JSON Schema — powered by Spectral, with Swagger 2.0 parity. Search Git hosts for real artifacts, lint against a best-of-breed ruleset, edit rules, and commit or PR back. No backend | [validator.apicommons.org](https://validator.apicommons.org) |
 | [**api-discovery**](https://github.com/api-commons/api-discovery) | Browser-first registry for API artifacts — search APIs.io + GitHub/GitLab/Bitbucket, keep provenance, save locally or commit/PR to git, and edit | [discovery.apicommons.org](https://discovery.apicommons.org) |
 | [**api-documentation**](https://github.com/api-commons/api-documentation) | Standalone documentation for any APIs.json — rich, portable HTML docs for every API, property, and inline OpenAPI/Arazzo artifact. Supports APIs.json 0.11–0.21 | [documentation.apicommons.org](https://documentation.apicommons.org) |
 | [**api-experience**](https://github.com/api-commons/api-experience) | A DX/AX visual layer for any APIs.json — see each REST operation flow to its MCP tool and Agent Skill, with a free/paid coverage scorecard | [experience.apicommons.org](https://experience.apicommons.org) |
